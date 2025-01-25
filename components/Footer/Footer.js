@@ -30,7 +30,7 @@ const Footer = () => {
           <div className={styles.footer_contacts}>
             <div className={styles.dev}>
               <div>© {new Date().getFullYear()} DGStart</div>
-              <div className={styles.developer}>
+              {/* <div className={styles.developer}>
                 Developed by{' '}
                 <Link
                   className={styles.link}
@@ -39,7 +39,7 @@ const Footer = () => {
                 >
                   Volodymyr Siedykh
                 </Link>
-              </div>
+              </div> */}
             </div>
 
             <div className={styles.footer_socials}>
